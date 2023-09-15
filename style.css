@@ -1,0 +1,41 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+div#gorro{
+    display: flex;
+    gap: 0.7rem;
+}
+
+nav p{
+    font-family: "Poppins", sans-serif, Arial;
+    font-weight: 600;
+    font-size: 1.2rem;
+    padding-top: 0.3rem;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: #F7C7B9;
+    gap: 32rem;
+    padding: 0.6rem;
+    
+}
+
+ul{
+    font-family: "Poppins", sans-serif, Arial;
+    font-weight: 600;
+    font-size: 0.8rem;
+    list-style: none;
+    display: flex;
+    gap: 3rem;
+    padding-top: 0.5rem;
+}
