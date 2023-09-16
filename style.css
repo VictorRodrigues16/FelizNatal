@@ -25,7 +25,7 @@ nav{
     display: flex;
     justify-content: space-around;
     background-color: #F7C7B9;
-    gap: 32rem;
+    gap: 28rem;
     padding: 0.6rem;
     
 }
@@ -33,7 +33,7 @@ nav{
 ul{
     font-family: "Poppins", sans-serif, Arial;
     font-weight: 500;
-    font-size: 1rem;
+    font-size: 0.94rem;
     list-style: none;
     display: flex;
     gap: 3rem;
@@ -41,31 +41,43 @@ ul{
 }
 
 section#page1{
-    padding-top: 4rem;
+    padding-top: 6rem;
+    padding-bottom: 8rem;
     display: flex;
     justify-content: space-around;
     background-color: #F7C7B9;
     
 }
 
-section#page1 h2{   
+img#page1{
+    width: 36rem;
+}
+
+div#tittle1{
+    padding-top: 2  rem;
+
+}
+
+section#page1 h1{   
     font-family: "Poppins", sans-serif, Arial;
     font-weight: 600;
     font-size: 2.6rem;
-    
+    color: #161212;
+    width: 20rem;
 }
 
-section#page1 ul{
+section#page1 li{
     font-family: "Poppins", sans-serif, Arial;
     font-weight: 500;
     font-size: 0.9rem;
     color: #404040;
+    list-style: none;
 }
 
 div#bloco1{
     display: flex;
     flex-direction: column;
-    gap: 0.5rem;
+    gap: 0.9rem;
 }
 
 button#img-button{
@@ -91,3 +103,104 @@ div#button{
     padding-top: 1.7rem;
 
 }
+
+div#tittle2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+section#page2 h1{
+    font-family: "Poppins", sans-serif, Arial;
+    font-weight: 600;
+    font-size: 2.6rem;
+    color: #161212;
+    padding-top: 3rem;
+}
+
+section#page2 li{
+    font-family: "Poppins", sans-serif, Arial;
+    font-weight: 500;
+    font-size: 0.85rem;
+    color: #404040;
+    list-style: none;  
+}
+
+div#subtittle2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div#blocos{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 2rem;
+    padding-bottom: 5.3rem;
+    gap: 4rem;
+}
+
+div.bloco{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    text-align: center;
+    width: 11.5rem;
+}
+
+div.bloco h3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Poppins", sans-serif, Arial;
+    font-weight: 500;
+    font-size: 1.4rem;
+    color: #161212;
+}
+
+div.bloco p{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Poppins", sans-serif, Arial;
+    font-weight: 500;
+    font-size: 0.9rem;
+    color: #8D8D8D;
+
+}
+
+section#page3{
+    background-color:  #F7C7B9;
+    
+}
+
+div#page3{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+
+section#page3 h1{
+    font-family: "Poppins", sans-serif, Arial;
+    font-weight: 600;
+    font-size: 2.9rem;
+    color: #161212;
+    width: 27rem;
+}
+
+section#page3 li{
+    font-family: "Poppins", sans-serif, Arial;
+    font-weight: 600;
+    font-size: 0.8rem;
+    color: #404040;
+    list-style: none;
+    width: 26rem;   
+}
+
+div#page3{
+    padding-right: 8rem;
+}
+
