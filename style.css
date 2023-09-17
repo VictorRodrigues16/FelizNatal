@@ -93,6 +93,11 @@ button#img-button{
     font-family: "Poppins", sans-serif, Arial;
     font-weight: 600;
     cursor: pointer;
+    transition: .3s;
+}
+
+button#img-button:hover{
+    background-color: #ae313c;
 }
 
 button#img-button p{
@@ -221,6 +226,11 @@ button#img-button2{
     font-family: "Poppins", sans-serif, Arial;
     font-weight: 600;
     cursor: pointer;
+    transition: .3s;
+}
+
+button#img-button2:hover{
+    background-color: #ae313c;
 }
 
 div#text-page3{
