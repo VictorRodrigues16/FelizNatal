@@ -1,9 +1,9 @@
-<h1 align="center">:file_cabinet: Feliz Natal</h1>
+<h1 align="center">Feliz Natal</h1>
 
 
 
 ## :memo: Descrição 
-PRojeto realizado para treinar Front-End, com o tema natalino.
+Projeto realizado para treinar Front-End utilizando apenas HTML & CSS, com o tema natalino.
 
 
 ## :wrench: Tecnologias utilizadas
